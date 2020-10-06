@@ -27,7 +27,7 @@ jobs:
       - save_cache: *save_cache
       - run:
           name: Deploying to pie-website-next.surge.sh
-          command: npm run deploy
+          command: npm run deployDev
 
 workflows:
   version: 2
